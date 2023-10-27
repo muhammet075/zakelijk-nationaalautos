@@ -1,6 +1,6 @@
 import { useEffect } from "react";
 import Head from "next/head";
-import Apis from "@/components/apis";
+import Hero from "@/components/Hero";
 
 export default function Home() {
 
@@ -12,7 +12,7 @@ export default function Home() {
       <Head>
           <title>zakelijk-nationaalautos</title>
       </Head>
-      <Apis/>
+      <Hero/>
     </>
   );
 }
