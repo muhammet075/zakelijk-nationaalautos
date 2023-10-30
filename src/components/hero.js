@@ -27,7 +27,7 @@ function Hero() {
               <li><Image src={checkIco} alt="Check Icoon"/>10+ Verkooppunten</li>
               <li><Image src={checkIco} alt="Check Icoon"/>Afsprakensysteem voor klanten</li>
             </ul>
-            <a href="/klant-worden" id="eigenwebsite">Klant worden</a>
+            <a href="/klantworden" id="eigenwebsite">Klant worden</a>
           </section>
 
           <section>
