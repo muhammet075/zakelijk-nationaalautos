@@ -1,24 +1,126 @@
+@import url('https://fonts.googleapis.com/css?family=Rubik:100,200,300,400,500,600,700,800,900,1000&display=swap');
+
 *{
-  margin: 0 auto;
+  margin: 0;
   padding: 0;
   box-sizing: border-box;
   font-family: Montserrat, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
 }
 
-header{
-  width: 100%;
-  height: 10vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background-color: #ffff;
-  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+:root{
+  --background1: #131313;
+  --background2: #1f1f1f;
+  --background3: #1e1e1e;
+  --border1: #4e4e4e;
+  --textColor1: #ffff;
+  --textColor2: #bdbdbd;
+  --textColor3: #000;
+  --toggleSvgColor: invert(1);
+  --themeColor: #ffda00;
 }
 
-.apis{
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 90vh;
-  width: 100%;
+body{
+  background-color: #000;
+}
+
+main{
+  margin-top: 130px;
+}
+
+.fixedheader{
+  height: 100px !important;
+  z-index: 99999 !important;    
+  animation: fadeinheader 0.3s ease forwards;
+}
+
+.fixedheader > div:nth-child(1) > section:nth-of-type(2) ul:nth-of-type(1){
+  display: none !important;
+}
+
+.fixedheader > div:nth-child(1) > section:nth-of-type(2){
+  margin-top: 0px !important;
+}
+
+@media only screen and (max-width: 1100px) {
+
+  .fixedheader > div:nth-child(1) > section:nth-of-type(2) > button{
+    top: 0;
+    bottom: 0;
+    height: 100%;
+  }
+
+  .fixedheader > div:nth-child(1) > section:nth-of-type(2) > button img {
+    width: 40px;
+  }
+
+  .fixedheader > div:nth-child(1) > section:nth-of-type(1) img{
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: auto;
+  }
+
+  .fixedheader > div:nth-child(1) > section:nth-of-type(1) > a:last-child{
+    display: block;
+  }
+
+  .fixedheader > div:nth-child(1) > section:nth-of-type(1) > a:last-child img {
+    position: absolute;
+    margin: auto 0;
+    top: 0;
+    bottom: 0;
+    left: 15px;
+    width: 50px;
+    height: auto;
+  }
+}
+
+#hamburgerbtn{
+  display: none;
+}
+
+@media only screen and (max-width: 1050px) {
+  #hamburgerbtn{
+    display: block;
+  }
+}
+
+.openhamburger {
+  animation: openhamburger .75s forwards
+}
+
+.closehamburger {
+  animation: closehamburger .75s forwards
+}
+
+@keyframes fadeinheader {
+  0% {
+      top: -50px;
+      opacity: 0
+  }
+
+  to {
+      top: 0;
+      opacity: 1
+  }
+}
+
+@keyframes openhamburger {
+  0% {
+      left: -2000px
+  }
+
+  to {
+      left: 0
+  }
+}
+
+@keyframes closehamburger {
+  0% {
+      left: 0
+  }
+
+  to {
+      left: -2000px
+  }
 }

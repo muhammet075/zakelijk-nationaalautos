@@ -1,0 +1,81 @@
+.eigenwebsite > div{
+    max-width: 1300px;
+    height: 100%;
+    margin: 100px auto;
+    color: var(--textColor1);
+}
+
+.eigenwebsite > div > h2{
+    font-size: 2.5em;
+    font-weight: 100;
+    margin-bottom: 10px;
+}
+
+.eigenwebsite > div > p{
+    line-height: 25px;
+    margin-bottom: 25px;
+}
+
+.eigenwebsite > div > ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+}
+
+.eigenwebsite > div > ul li:last-child{
+    display: none;
+}
+
+.eigenwebsite > div > ul li img{
+    width: 17px;
+    height: auto;
+    margin-right: 5px;
+}
+
+
+@media only screen and (max-width: 1315px) {
+    .eigenwebsite > div{
+        padding: 0 15px;
+    }
+}
+
+@media only screen and (max-width: 1100px) {
+    .eigenwebsite > div > ul{
+        display: grid;
+        grid-template-columns: auto auto;
+        justify-content: flex-start;
+        column-gap: 25px;
+        row-gap: 7px;
+    }
+
+    .eigenwebsite > div > ul li:last-child{
+        display: block;
+    }    
+}
+
+
+@media only screen and (max-width: 850px) {
+    .eigenwebsite > div{
+        margin: 50px 0;
+    }
+    
+    .eigenwebsite > div > h2{
+        font-size: 1.8em;
+    }
+}
+
+
+@media only screen and (max-width: 550px) {
+    .eigenwebsite > div > ul{
+        column-gap: 10px;
+    }
+
+    .eigenwebsite > div > ul li{
+        font-size: 0.9em;
+    }
+    
+    .eigenwebsite > div > ul li img{
+        width: 12px;
+    }
+}

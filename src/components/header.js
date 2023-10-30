@@ -1,13 +1,78 @@
 import { useEffect } from "react";
+import Image from "next/image";
+import Link from "next/link";
+import styles from "@/styles/header.module.css";
+import Logo from "@/assets/img/nationaal-autos-logo.svg"
+import Telefoon from "@/assets/icons/telefoonico.svg"
+import Mail from "@/assets/icons/mailico.svg"
+import WhatsAppIco from "@/assets/icons/whatsappico.svg";
+import WhatsApp from "@/assets/icons/whatsapp.svg";
+import Hamburger from "@/assets/icons/hamburger.svg";
+import Close from "@/assets/icons/close.svg";
 
 function Header() {
 
   useEffect(() => {
+
+
+      window.addEventListener('scroll', function() {
+        const header = document.querySelector("header");
+        if (window.scrollY >= 150) {
+            header.classList.add("fixedheader");
+        } else {
+            header.classList.remove("fixedheader");
+        }
+    });
+
+    
   }, []);
+
+  function openHamburger(){
+    document.querySelector(".hamburgermenu").classList.remove("closehamburger");
+    document.querySelector(".hamburgermenu").classList.add("openhamburger");
+  }
+
+  function closeHamburger(){
+    document.querySelector(".hamburgermenu").classList.remove("openhamburger");
+    document.querySelector(".hamburgermenu").classList.add("closehamburger");
+  }
   
   return (
-    <header>
-      <h1>Tickety Apis</h1>
+    <header className={styles.header}>
+      <div>
+        <section>
+          <Link href="/"><Image src={Logo} alt="Logo van Nationaal Autos"/></Link>
+          <Link href="/"><Image src={WhatsApp} alt="WhatsApp Icoon"/></Link>
+        </section>
+
+        <section>
+          <ul>
+            <li><Link href="/"><Image src={Telefoon} alt="Telefoon Icoon"/>+31 06 36 52 60 58</Link></li>
+            <li><Link href="/"><Image src={Mail} alt="Mail Icoon"/>zakelijk@nationaalautos.nl</Link></li>
+            <li><Link href="/"><Image src={WhatsAppIco} alt="WhatsApp Icoon"/>WhatsApp</Link></li>
+            <li><Link href="/">Over ons</Link></li>
+            <li><Link href="/">Contact</Link></li>
+          </ul>
+
+          <ul className="hamburgermenu">
+            <li><button onClick={closeHamburger}><Image src={Close} alt="Sluit Icoon"/></button></li>
+            <li><Link href="/" onClick={closeHamburger}>Eigen website</Link></li>
+            <li><Link href="/" onClick={closeHamburger}>Verkooppunten</Link></li>
+            <li><Link href="/" onClick={closeHamburger}>Voorraadbeheer</Link></li>
+            <li><Link href="/" onClick={closeHamburger}>Afspraaksysteem</Link></li>
+            <li><Link href="/" onClick={closeHamburger}>Voorbeelden</Link></li>
+
+            <li><Link href="/" onClick={closeHamburger}>Over ons</Link></li>
+            <li><Link href="/" onClick={closeHamburger}>Contact</Link></li>
+
+            <li><Link href="/" onClick={closeHamburger}>Klant worden</Link></li>
+          </ul>
+
+          <button id="hamburgerbtn" onClick={openHamburger}><Image src={Hamburger} alt="Hamburger Icoon"/></button>
+
+        </section>
+      </div>
+
     </header>
   );
 }
