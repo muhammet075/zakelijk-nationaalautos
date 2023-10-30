@@ -2,7 +2,7 @@
     background-color: var(--background2);
     border-top: 1px solid var(--border1);
     border-bottom: 1px solid var(--border1);
-    padding: 100px 0;
+    padding: 100px 0 50px 0;
 }
 
 .occasionbeheer > div{

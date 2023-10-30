@@ -6,13 +6,8 @@ import checkIco from "@/assets/icons/check.svg";
 function Eigenwebsite() {
   
   useEffect(() => {
-
   }, []);
 
-
-
-
-    
   return (
     <div className={styles.eigenwebsite}>
       <div>

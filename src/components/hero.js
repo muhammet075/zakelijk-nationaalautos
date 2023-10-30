@@ -19,7 +19,7 @@ function Hero() {
       <div>
 
           <section>
-            <h1>NationaalAutos.nl boost jouw autobedrijf</h1>
+            <h1>NationaalAutos.nl boost jouw autobedrijf.</h1>
             <ul>
               <li><Image src={checkIco} alt="Check Icoon"/>Eigen Website</li>
               <li><Image src={checkIco} alt="Check Icoon"/>Eigen occasion beheer</li>
@@ -27,7 +27,7 @@ function Hero() {
               <li><Image src={checkIco} alt="Check Icoon"/>10+ Verkooppunten</li>
               <li><Image src={checkIco} alt="Check Icoon"/>Afsprakensysteem voor klanten</li>
             </ul>
-            <a href="/klant-worden">Klant worden</a>
+            <a href="/klant-worden" id="eigenwebsite">Klant worden</a>
           </section>
 
           <section>

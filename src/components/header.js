@@ -56,15 +56,13 @@ function Header() {
 
           <ul className="hamburgermenu">
             <li><button onClick={closeHamburger}><Image src={Close} alt="Sluit Icoon"/></button></li>
-            <li><Link href="/" onClick={closeHamburger}>Eigen website</Link></li>
-            <li><Link href="/" onClick={closeHamburger}>Verkooppunten</Link></li>
-            <li><Link href="/" onClick={closeHamburger}>Voorraadbeheer</Link></li>
-            <li><Link href="/" onClick={closeHamburger}>Afspraaksysteem</Link></li>
-            <li><Link href="/" onClick={closeHamburger}>Voorbeelden</Link></li>
-
+            <li><Link href="#eigenwebsite" onClick={closeHamburger}>Eigen website</Link></li>
+            <li><Link href="#verkooppunten" onClick={closeHamburger}>Verkooppunten</Link></li>
+            <li><Link href="#occasionsbeheer" onClick={closeHamburger}>Occasionsbeheer</Link></li>
+            <li><Link href="#afspraaksysteem" onClick={closeHamburger}>Afspraaksysteem</Link></li>
+            {/* <li><Link href="/" onClick={closeHamburger}>Voorbeelden</Link></li> */}
             <li><Link href="/" onClick={closeHamburger}>Over ons</Link></li>
             <li><Link href="/" onClick={closeHamburger}>Contact</Link></li>
-
             <li><Link href="/" onClick={closeHamburger}>Klant worden</Link></li>
           </ul>
 

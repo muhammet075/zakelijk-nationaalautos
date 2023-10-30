@@ -3,6 +3,7 @@ import Head from "next/head";
 import Hero from "@/components/hero";
 import Eigenwebsite from "@/components/eigenwebsite";
 import Occasionbeheer from "@/components/occasionbeheer";
+import Afspraaksysteem from "@/components/afspraaksysteem";
 
 export default function Home() {
 
@@ -17,6 +18,7 @@ export default function Home() {
       <Hero/>
       <Eigenwebsite/>
       <Occasionbeheer/>
+      <Afspraaksysteem/>
     </>
   );
 }

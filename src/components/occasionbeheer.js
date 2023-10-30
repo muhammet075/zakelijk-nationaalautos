@@ -26,7 +26,7 @@ function Occasionbeheer() {
 
     
   return (
-    <div className={styles.occasionbeheer}>
+    <div className={styles.occasionbeheer} id="verkooppunten">
       <div>
 
         <div>
@@ -43,7 +43,7 @@ function Occasionbeheer() {
         <div>
             <section>
                 <h2>Verkooppunten</h2>
-                <ul>
+                <ul id="occasionsbeheer">
                     <li><Image src={NationaalAutos} alt="Logo van NationaalAutos.nl"/></li>
                     <li><Image src={Marktplaats} alt="Logo van Martkplaats"/></li>
                     <li><Image src={Autoscout24} alt="Logo van Autoscout24"/></li>
@@ -71,7 +71,7 @@ function Occasionbeheer() {
             </section>
             <section>
                 <h3>Occasion pagina</h3>
-                <p>Deze opmaak zal ook consistent worden toegepast op zowel de eigen website als op Nationaalautos.nl, waardoor gebruikers een uniforme en gestroomlijnde ervaring hebben, ongeacht het platform dat ze gebruiken.</p>
+                <p id="afspraaksysteem">Deze opmaak zal ook consistent worden toegepast op zowel de eigen website als op Nationaalautos.nl, waardoor gebruikers een uniforme en gestroomlijnde ervaring hebben, ongeacht het platform dat ze gebruiken.</p>
             </section>
         </div>
 
