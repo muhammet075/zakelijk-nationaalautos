@@ -40,6 +40,7 @@ function Footer() {
                     <li><Link href="/overons">Over ons</Link></li>
                     <li><Link href="/contact">Contact</Link></li>
                     <li><Link href="/klantworden">Klant worden</Link></li>
+                    <li><Link target="_blank" href="/sitemap.xml">Sitemap</Link></li>
                 </ul>
             </section>
 
