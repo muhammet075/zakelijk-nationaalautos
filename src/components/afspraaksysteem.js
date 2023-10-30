@@ -24,7 +24,7 @@ function Afspraaksysteem() {
             <section>
                 <h2>Afspraaksysteem</h2>
                 <p>Laat de klant zijn auto bij u achterlaten op een afgesproken tijdstip.</p>
-                <p>Dit afspraaksysteem biedt klanten de mogelijkheid om hun auto gedurende de dag bij ons achter te laten. Wij zullen vervolgens de benodigde tijd bepalen en aan de klant communiceren hoelang zij moeten wachten, of voor hoeveel dagen de auto bij ons zal blijven voor de benodigde service.</p>
+                <p>Dit afspraaksysteem biedt klanten de mogelijkheid om hun auto gedurende de dag bij uw autobedrijf achter te laten. Vervolgens kunt u de benodigde tijd bepalen en aan de klant communiceren hoelang zij moeten wachten, of voor hoeveel dagen de auto bij uw autogarage zal blijven voor de benodigde service.</p>
                 <p>Laat uw klanten eenvoudig een afspraak maken door hun kenteken in te voeren. Zodra het kenteken is ingevoerd, verschijnen alle relevante gegevens van hun voertuig. Vervolgens kunnen ze kiezen uit diverse diensten, zoals een onderhoudsbeurt, APK-keuring, reparaties, banden- of remmenvervanging, airco check en meer. Zodra de keuze is gemaakt, wordt het afspraakproces automatisch gestart. Laat uw klanten nu hun afspraak plannen en ervaar het gemak van onze service.</p>
             </section>
         </div>
@@ -45,7 +45,7 @@ function Afspraaksysteem() {
             </section>
             <section>
                 <h3>Datum & tijd selecteren</h3>
-                <p>Na het invoeren van de nodige gegevens wordt de klant uitgenodigd om een geschikte datum en tijd te kiezen voor het bezoek aan uw autobedrijf. De beschikbare tijden zijn gebaseerd op uw openingstijden van ons bedrijf. Bovendien kunnen we vrije dagen blokkeren, zodat deze niet beschikbaar zijn voor klantafspraken. Zodra de klant een geschikte datum heeft geselecteerd, kan de klant kiezen om de auto achter te laten bij uw autobedrijf. Op basis van de aard van de dienst beslist u hoelang de klant moet wachten of hoe lang de auto bij uw garage blijft.</p>
+                <p>Na het invoeren van de nodige gegevens wordt de klant uitgenodigd om een geschikte datum en tijd te kiezen voor het bezoek aan uw autobedrijf. De beschikbare tijden zijn gebaseerd op uw openingstijden van uw autobedrijf. Bovendien kunnen we vrije dagen uitschakelen, zodat deze niet beschikbaar zijn voor klantafspraken. Zodra de klant een geschikte datum heeft geselecteerd, kan de klant kiezen om de auto achter te laten bij uw autobedrijf. Op basis van de aard van de dienst beslist u hoelang de klant moet wachten of hoe lang de auto bij uw garage blijft.</p>
             </section>
         </div>
 

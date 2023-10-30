@@ -47,23 +47,23 @@ function Header() {
 
         <section>
           <ul>
-            <li><Link href="/"><Image src={Telefoon} alt="Telefoon Icoon"/>+31 06 36 52 60 58</Link></li>
-            <li><Link href="/"><Image src={Mail} alt="Mail Icoon"/>zakelijk@nationaalautos.nl</Link></li>
-            <li><Link href="/"><Image src={WhatsAppIco} alt="WhatsApp Icoon"/>WhatsApp</Link></li>
-            <li><Link href="/">Over ons</Link></li>
-            <li><Link href="/">Contact</Link></li>
+            <li><Link target="_blank" href="https://api.whatsapp.com/send/?phone=31687904632"><Image src={Telefoon} alt="Telefoon Icoon"/> +31 6 87 90 46 32</Link></li>
+            <li><Link href="mailto:partner@nationaalautos.nl"><Image src={Mail} alt="Mail Icoon"/>partner@nationaalautos.nl</Link></li>
+            <li><Link target="_blank" href="https://api.whatsapp.com/send/?phone=31687904632"><Image src={WhatsAppIco} alt="WhatsApp Icoon"/> WhatsApp</Link></li>
+            <li><Link href="/overons">Over ons</Link></li>
+            <li><Link href="/contact">Contact</Link></li>
           </ul>
 
           <ul className="hamburgermenu">
             <li><button onClick={closeHamburger}><Image src={Close} alt="Sluit Icoon"/></button></li>
-            <li><Link href="#eigenwebsite" onClick={closeHamburger}>Eigen website</Link></li>
-            <li><Link href="#verkooppunten" onClick={closeHamburger}>Verkooppunten</Link></li>
-            <li><Link href="#occasionsbeheer" onClick={closeHamburger}>Occasionsbeheer</Link></li>
-            <li><Link href="#afspraaksysteem" onClick={closeHamburger}>Afspraaksysteem</Link></li>
+            <li><Link href="/#eigenwebsite" onClick={closeHamburger}>Eigen website</Link></li>
+            <li><Link href="/#verkooppunten" onClick={closeHamburger}>Verkooppunten</Link></li>
+            <li><Link href="/#occasionsbeheer" onClick={closeHamburger}>Occasionsbeheer</Link></li>
+            <li><Link href="/#afspraaksysteem" onClick={closeHamburger}>Afspraaksysteem</Link></li>
             {/* <li><Link href="/" onClick={closeHamburger}>Voorbeelden</Link></li> */}
-            <li><Link href="/" onClick={closeHamburger}>Over ons</Link></li>
-            <li><Link href="/" onClick={closeHamburger}>Contact</Link></li>
-            <li><Link href="/" onClick={closeHamburger}>Klant worden</Link></li>
+            <li><Link href="/overons" onClick={closeHamburger}>Over ons</Link></li>
+            <li><Link href="/contact" onClick={closeHamburger}>Contact</Link></li>
+            <li><Link href="/klantworden" onClick={closeHamburger}>Klant worden</Link></li>
           </ul>
 
           <button id="hamburgerbtn" onClick={openHamburger}><Image src={Hamburger} alt="Hamburger Icoon"/></button>

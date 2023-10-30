@@ -1,0 +1,121 @@
+.footer{
+    background-color: var(--background2);
+    border-top: 1px solid var(--border1);
+    padding: 50px 0 25px 0;
+}
+
+.footer > div{
+    max-width: 1300px;
+    margin: 0 auto;
+    color: var(--textColor1);
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+}
+
+.footer > div a{
+    color: var(--textColor1);
+    font-weight: 500;
+    text-decoration: none;
+}
+
+.footer > div a:hover{
+    color: var(--themeColor);
+    transition: 0.3s ease;
+}
+
+.footer > div > section{
+    width: 17%;
+}
+
+.footer > div > section ul{
+    list-style: none;
+}
+
+.footer > div > section ul li{
+    margin-bottom: 7px;
+    display: flex;
+    align-items: center;
+}
+
+.footer > div > section ul li h2{
+    margin-bottom: 7px;
+}
+
+.footer > div > section ul li img{
+    width: 15px;
+    height: auto;
+    margin-right: 7px;
+}
+
+
+
+
+.footer > div > section:nth-of-type(1){
+    width: 25%;
+}
+
+.footer > div > section:nth-of-type(1) a img{
+    width: 300px;
+    height: auto;
+    margin-bottom: 25px;
+}
+
+.footer > div > section:nth-of-type(1) p:nth-of-type(1){
+    margin-bottom: 25px;
+}
+
+.footer > div > section:nth-of-type(1) p:nth-of-type(3){
+    margin-bottom: 25px;
+}
+
+.footer > div > section:nth-of-type(1) a{
+    display: block;
+    color: var(--themeColor);
+}
+
+.footer > div > section:nth-of-type(1) a:hover{
+    color: var(--textColor1);
+    transition: 0.3s ease;
+}
+
+.footer > div > section:nth-of-type(1) p:last-child{
+    margin-top: 25px;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    font-size: 0.8em;
+}
+
+@media only screen and (max-width: 1315px) {
+    .footer > div{
+        padding: 0 15px;
+    }
+}
+
+@media only screen and (max-width: 1100px) {
+    .footer > div > section:nth-of-type(1) a img{
+        width: 200px;
+    }
+}
+
+@media only screen and (max-width: 850px) {
+    .footer > div{
+        flex-direction: column-reverse;
+    }
+
+    .footer > div > section{
+        margin-bottom: 75px;
+        width: 100% !important;
+    }
+
+    .footer > div > section:nth-of-type(1) p:nth-of-type(1){
+        max-width: 350px;
+    }
+
+    .footer > div > section:nth-of-type(1) p:last-child{
+        left: 15px;
+        bottom: 15px;
+    }
+
+}
