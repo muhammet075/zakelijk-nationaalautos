@@ -2,7 +2,7 @@ const sitemap = require("nextjs-sitemap-generator");
 const path = require("path");
 
 sitemap({
-    baseUrl: "https://altinweb.nl", // Voeg hier het volledige URL-basispad toe
+    baseUrl: "https://zakelijk.nationaalautos.nl", // Voeg hier het volledige URL-basispad toe
     pagesDirectory: path.resolve(__dirname, "../out/"),
     targetDirectory: path.resolve(__dirname, "../out/"),
     sitemapFilename: 'sitemap.xml',

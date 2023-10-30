@@ -42,7 +42,7 @@ function Header() {
       <div>
         <section>
           <Link href="/"><Image src={Logo} alt="Logo van Nationaal Autos"/></Link>
-          <Link href="/"><Image src={WhatsApp} alt="WhatsApp Icoon"/></Link>
+          <Link target="_blank" href="https://api.whatsapp.com/send/?phone=31687904632"><Image src={WhatsApp} alt="WhatsApp Icoon"/></Link>
         </section>
 
         <section>
