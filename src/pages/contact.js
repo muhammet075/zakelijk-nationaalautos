@@ -15,7 +15,11 @@ export default function Contact() {
           <meta property="og:url" content="https://www.zakelijk.nationaalautos.nl/contact"/>
           <meta property="og:title" content="Contact | Nationaalautos.nl"/>
       </Head>
-      <h1>Contact</h1>
+      <div className="content">
+        <div>
+          <h1>Contact</h1>
+        </div>
+      </div>
     </>
   );
 }

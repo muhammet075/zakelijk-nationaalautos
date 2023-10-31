@@ -15,7 +15,11 @@ export default function Privacyverklaring() {
           <meta property="og:url" content="https://www.zakelijk.nationaalautos.nl/privacyverklaring"/>
           <meta property="og:title" content="Privacy verklaring | Nationaalautos.nl"/>
       </Head>
-      <h1>Privacy verklaring</h1>
+      <div className="content">
+        <div>
+          <h1>Privacy verklaring</h1>
+        </div>
+      </div>
     </>
   );
 }

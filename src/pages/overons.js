@@ -15,7 +15,11 @@ export default function Overons() {
           <meta property="og:url" content="https://www.zakelijk.nationaalautos.nl/overons"/>
           <meta property="og:title" content="Over ons | Nationaalautos.nl"/>
       </Head>
-      <h1>Over ons</h1>
+      <div className="content">
+        <div>
+          <h1>Over ons</h1>
+        </div>
+      </div>
     </>
   );
 }

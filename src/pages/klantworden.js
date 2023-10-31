@@ -15,7 +15,11 @@ export default function Klantworden() {
           <meta property="og:url" content="https://www.zakelijk.nationaalautos.nl/klantworden"/>
           <meta property="og:title" content="Klant worden | Nationaalautos.nl"/>
       </Head>
-      <h1>Klant worden</h1>
+      <div className="content">
+        <div>
+          <h1>Klant worden</h1>
+        </div>
+      </div>
     </>
   );
 }

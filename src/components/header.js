@@ -14,8 +14,6 @@ import ChevronRight from "@/assets/icons/chevron-right.svg";
 function Header() {
 
   useEffect(() => {
-
-
       window.addEventListener('scroll', function() {
         const header = document.querySelector("header");
         if (window.scrollY >= 150) {
@@ -24,8 +22,6 @@ function Header() {
             header.classList.remove("fixedheader");
         }
     });
-
-    
   }, []);
 
   function openHamburger(){

@@ -2,7 +2,6 @@ import { useEffect, useState } from "react";
 import Image from "next/image";
 import styles from "@/styles/afspraaksysteem.module.css";
 import checkIco from "@/assets/icons/check.svg";
-
 import afspraak1 from "@/assets/mockups/afspraak1.png";
 import afspraak2 from "@/assets/mockups/afspraak2.png";
 import afspraak3 from "@/assets/mockups/afspraak3.png";
@@ -19,7 +18,7 @@ function Afspraaksysteem() {
 
         <div>
             <section>
-                <Image src={afspraak1} alt="Screenshot van de admin dashboard"/>
+                <Image src={afspraak1} alt="Screenshot van de admin dashboard" data-aos="fade-up"/>
             </section>
             <section>
                 <h2>Afspraaksysteem</h2>
@@ -35,13 +34,13 @@ function Afspraaksysteem() {
                 <p>Na het selecteren van de gewenste dienst vult de klant eenvoudig de kilometerstand van hun auto in, samen met hun telefoonnummer, voor- en achternaam, e-mailadres en optioneel, de naam van hun bedrijf. Daarnaast hebben ze de mogelijkheid om een omschrijving toe te voegen waarin ze hun specifieke wensen of eventuele problemen met hun voertuig kunnen uitleggen. Het invullen van deze gegevens stelt ons in staat om hun afspraak op maat te plannen en hen een gerichte service te bieden.</p>
             </section>
             <section>
-                <Image src={afspraak2} alt="Screenshot van de admin dashboard"/>
+                <Image src={afspraak2} alt="Screenshot van de admin dashboard" data-aos="fade-up"/>
             </section>
         </div>
 
         <div>
             <section>
-                <Image src={afspraak3} alt="Screenshot van de admin dashboard"/>
+                <Image src={afspraak3} alt="Screenshot van de admin dashboard" data-aos="fade-up"/>
             </section>
             <section>
                 <h3>Datum & tijd selecteren</h3>
@@ -55,7 +54,7 @@ function Afspraaksysteem() {
                 <p>Met ons handige dashboard heeft u gemakkelijk toegang tot een overzicht van alle afspraken die zijn gemaakt. U kunt eenvoudig afspraken bekijken van vandaag en in de toekomst, evenals een archief van de afspraken die al hebben plaatsgevonden. Het overzicht is zo ontworpen dat u in één oogopslag de nodige informatie kunt zien, zoals klantgegevens, gekozen diensten, datums en tijden. Daarnaast biedt ons admin-dashboard de mogelijkheid om zelf afspraken toe te voegen, te wijzigen of te verwijderen. Dit stelt u in staat om de planning flexibel te beheren en aan te passen aan de veranderende behoeften van uw klanten en uw bedrijf. Met ons uitgebreide dashboard houden we de regie in handen voor een soepele en efficiënte bedrijfsvoering.</p>
             </section>
             <section>
-                <Image src={afspraak4} alt="Screenshot van de admin dashboard"/>
+                <Image src={afspraak4} alt="Screenshot van de admin dashboard" data-aos="fade-up"/>
             </section>
         </div>
 

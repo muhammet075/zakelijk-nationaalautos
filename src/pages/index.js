@@ -4,10 +4,13 @@ import Hero from "@/components/hero";
 import Eigenwebsite from "@/components/eigenwebsite";
 import Occasionbeheer from "@/components/occasionbeheer";
 import Afspraaksysteem from "@/components/afspraaksysteem";
+import Aos from "aos";
+import "aos/dist/aos.css";
 
 export default function Home() {
 
   useEffect(() => {
+    Aos.init();
   });
 
   return (
