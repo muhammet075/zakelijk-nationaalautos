@@ -9,7 +9,11 @@ export default function Algemenevoorwaarden() {
   return (
     <>
       <Head>
-          <title>Algemene voorwaarden</title>
+          <title>Algemene voorwaarden | Nationaalautos.nl</title>
+          <meta name="description" content="De algemene voorwaarden pagina van de zakelijke website van Nationaalautos.nl"/>
+          <meta name="og:description" content="De algemene voorwaarden pagina van de zakelijke website van Nationaalautos.nl"/>
+          <meta property="og:url" content="https://www.zakelijk.nationaalautos.nl/algemenevoorwaarden"/>
+          <meta property="og:title" content="Algemene voorwaarden | Nationaalautos.nl"/>
       </Head>
       <h1>Algemene voorwaarden</h1>
     </>
