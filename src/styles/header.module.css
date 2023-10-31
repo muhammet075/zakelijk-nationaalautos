@@ -5,6 +5,7 @@
     border-bottom: 1px solid var(--border1);
     box-shadow: 0 3px 8px rgba(0,0,0,.24);
     position: fixed;
+    z-index: 999;
     top: 0;
 }
 
