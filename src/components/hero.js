@@ -1,8 +1,10 @@
 import { useEffect, useState } from "react";
 import Image from "next/image";
+import Link from "next/link";
 import eigenWebsite from "@/assets/mockups/eigenwebsite.png";
 import styles from "@/styles/hero.module.css";
 import checkIco from "@/assets/icons/check.svg";
+import ChevronRight from "@/assets/icons/chevron-right.svg";
 
 function Hero() {
   
@@ -27,7 +29,7 @@ function Hero() {
               <li><Image src={checkIco} alt="Check Icoon"/>10+ Verkooppunten</li>
               <li><Image src={checkIco} alt="Check Icoon"/>Afsprakensysteem voor klanten</li>
             </ul>
-            <a href="/klantworden" id="eigenwebsite">Klant worden</a>
+            <Link href="/klantworden" id="eigenwebsite">Klant worden <Image src={ChevronRight} alt="Verder Icoon"/></Link>
           </section>
 
           <section>

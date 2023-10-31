@@ -18,7 +18,7 @@ function Eigenwebsite() {
             <li><Image src={checkIco} alt="Check Icoon"/>Vindbaar in Google</li>
             <li><Image src={checkIco} alt="Check Icoon"/>Inclusief .NL domein</li>
             <li><Image src={checkIco} alt="Check Icoon"/>Dashboard pagina</li>
-            <li><Image src={checkIco} alt="Check Icoon"/>Klantvriendlijk</li>
+            <li><Image src={checkIco} alt="Check Icoon"/>Gebruiksvriendelijk</li>
             <li><Image src={checkIco} alt="Check Icoon"/>Modern design</li>
             <li><Image src={checkIco} alt="Check Icoon"/>Razend snel & maatwek</li>
           </ul>

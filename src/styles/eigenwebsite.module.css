@@ -14,6 +14,7 @@
 .eigenwebsite > div > p{
     line-height: 25px;
     margin-bottom: 25px;
+    opacity: 0.8;
 }
 
 .eigenwebsite > div > ul{

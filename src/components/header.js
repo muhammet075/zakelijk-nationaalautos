@@ -2,13 +2,14 @@ import { useEffect } from "react";
 import Image from "next/image";
 import Link from "next/link";
 import styles from "@/styles/header.module.css";
-import Logo from "@/assets/img/nationaal-autos-logo.svg"
-import Telefoon from "@/assets/icons/telefoonico.svg"
-import Mail from "@/assets/icons/mailico.svg"
+import Logo from "@/assets/img/nationaal-autos-logo.svg";
+import Telefoon from "@/assets/icons/telefoonico.svg";
+import Mail from "@/assets/icons/mailico.svg";
 import WhatsAppIco from "@/assets/icons/whatsappico.svg";
 import WhatsApp from "@/assets/icons/whatsapp.svg";
 import Hamburger from "@/assets/icons/hamburger.svg";
 import Close from "@/assets/icons/close.svg";
+import ChevronRight from "@/assets/icons/chevron-right.svg";
 
 function Header() {
 
@@ -63,7 +64,7 @@ function Header() {
             {/* <li><Link href="/" onClick={closeHamburger}>Voorbeelden</Link></li> */}
             <li><Link href="/overons" onClick={closeHamburger}>Over ons</Link></li>
             <li><Link href="/contact" onClick={closeHamburger}>Contact</Link></li>
-            <li><Link href="/klantworden" onClick={closeHamburger}>Klant worden</Link></li>
+            <li><Link href="/klantworden" onClick={closeHamburger}>Klant worden <Image src={ChevronRight} alt="Verder Icoon"/></Link></li>
           </ul>
 
           <button id="hamburgerbtn" onClick={openHamburger}><Image src={Hamburger} alt="Hamburger Icoon"/></button>

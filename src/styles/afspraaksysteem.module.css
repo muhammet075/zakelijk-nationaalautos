@@ -13,6 +13,7 @@
 .afspraaksysteem > div p {
     line-height: 25px;
     margin-bottom: 25px;
+    opacity: 0.8;
 }
 
 .afspraaksysteem > div img {
@@ -63,16 +64,49 @@
 }
 
 
+@media only screen and (max-width: 1050px) {
+    .afspraaksysteem > div > div:nth-of-type(1) section img{
+        width: 200px;
+    }
+
+    .afspraaksysteem > div > div:nth-of-type(2) section img{
+        width: 400px;
+    }
+
+    .afspraaksysteem > div > div:nth-of-type(3) section img{
+        width: 300px;
+    }
+
+    .afspraaksysteem > div > div:nth-of-type(4) section img{
+        width: 400px;
+    }
+}
+
+
+
 @media only screen and (max-width: 850px) {
+    .afspraaksysteem > div{
+        margin: 0 0 25px 0;
+    }
+
     .afspraaksysteem > div h2, .afspraaksysteem > div h3 {
         font-size: 1.8em;
     }
 
-    .afspraaksysteem > div > div {
+    .afspraaksysteem > div > div{
         margin: 75px 0;
     }
 
-    .afspraaksysteem > div > div:nth-of-type(1) section img, .afspraaksysteem > div > div:nth-of-type(2) section img, .afspraaksysteem > div > div:nth-of-type(3) section img, .afspraaksysteem > div > div:nth-of-type(4) section img{
+    .afspraaksysteem > div > div:nth-of-type(1) section:nth-of-type(1){
+        display: flex;
+        justify-content: center;
+    }
+
+    .afspraaksysteem > div > div:nth-of-type(1) section img{
+        width: 75%;
+    }
+
+   .afspraaksysteem > div > div:nth-of-type(2) section img, .afspraaksysteem > div > div:nth-of-type(3) section img, .afspraaksysteem > div > div:nth-of-type(4) section img{
         width: 100%;
     }
     
