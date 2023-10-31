@@ -50,8 +50,8 @@ function Footer() {
                     <li><Link target="_blank" href="https://api.whatsapp.com/send/?phone=31687904632"><Image src={WhatsApp} alt="WhatsApp Icoon"/>WhatsApp</Link></li>
                     <li><Link target="_blank" href="https://api.whatsapp.com/send/?phone=31687904632"><Image src={Telefoon} alt="Telefoon Icoon"/>+31 6 87 90 46 32</Link></li>
                     <li><Link href="mailto:partner@nationaalautos.nl"><Image src={Mail} alt="Mail Icoon"/>E-Mail</Link></li>
-                    <li><Link href="/"><Image src={Instagram} alt="Instagram Icoon"/>Instagram</Link></li>
-                    <li><Link href="/"><Image src={Facebook} alt="Facebook Icoon"/>Facebook</Link></li>
+                    <li><Link target="_blank" href="https://instagram.com/nationaalautos"><Image src={Instagram} alt="Instagram Icoon"/>Instagram</Link></li>
+                    <li><Link target="_blank" href="/"><Image src={Facebook} alt="Facebook Icoon"/>Facebook</Link></li>
                 </ul>
             </section>
         </div>
