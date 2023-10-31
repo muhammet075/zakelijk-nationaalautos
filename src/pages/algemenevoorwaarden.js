@@ -18,6 +18,13 @@ export default function Algemenevoorwaarden() {
       <div className="content">
         <div>
           <h1>Algemene voorwaarden</h1>
+
+          <article>
+            <section>
+                <h2>Artikel 1.</h2>
+                <p>Wordt aan gewerkt.</p>
+            </section>
+        </article>
         </div>
       </div>
     </>

@@ -13,7 +13,7 @@ function Eigenwebsite() {
       <div>
 
           <h2>Eigen website voor jouw autobedrijf</h2>
-          <p>Nationaalautos.nl biedt autobedrijven een eigen website voor soepele afspraken voor APK, onderhoud, reparaties en bandenwissels. Beheerders kunnen afspraken bekijken, aanpassen en annuleren. Ook kunnen ze moeiteloos occasions toevoegen die automatisch op Nationaalautos.nl, Marktplaats, Autoscout24 en meer verkooppunten verschijnen. Het beheerdersdashboard maakt het eenvoudig om occasioninformatie up-to-date te houden. Dit alles helpt autobedrijven om efficiënter te werken en klanttevredenheid te verhogen.</p>
+          <p>NationaalAutos.nl biedt autobedrijven een eigen website voor soepele afspraken voor APK, onderhoud, reparaties en bandenwissels. Beheerders kunnen afspraken bekijken, aanpassen en annuleren. Ook kunnen ze moeiteloos occasions toevoegen die automatisch op NationaalAutos.nl, Marktplaats, Autoscout24 en meer verkooppunten verschijnen. Het beheerdersdashboard maakt het eenvoudig om occasioninformatie up-to-date te houden. Dit alles helpt autobedrijven om efficiënter te werken en klanttevredenheid te verhogen.</p>
           <ul>
             <li><Image src={checkIco} alt="Check Icoon"/>Vindbaar in Google</li>
             <li><Image src={checkIco} alt="Check Icoon"/>Inclusief .NL domein</li>

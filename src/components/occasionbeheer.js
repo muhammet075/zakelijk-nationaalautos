@@ -54,7 +54,7 @@ function Occasionbeheer() {
             </section>
             <section>
                 <h3>Occasion toevoegen</h3>
-                <p>Voeg moeiteloos occasions toe via het admin-paneel door simpelweg het kenteken in te voeren. Ontvang direct alle relevante voertuiginformatie van de RDW-server. Met een paar klikken wordt de auto automatisch geadverteerd op uw eigen website, Nationaalautos.nl, Marktplaats, Autoscout24, Gaspedaal en andere verkooplocaties. Beheerders kunnen zich concentreren op klantenservice terwijl het platform zorgt voor een moeiteloze online verkoopervaring.</p>
+                <p>Voeg moeiteloos occasions toe via het admin-paneel door simpelweg het kenteken in te voeren. Ontvang direct alle relevante voertuiginformatie van de RDW-server. Met een paar klikken wordt de auto automatisch geadverteerd op uw eigen website, NationaalAutos.nl, Marktplaats, Autoscout24, Gaspedaal en andere verkooplocaties. Beheerders kunnen zich concentreren op klantenservice terwijl het platform zorgt voor een moeiteloze online verkoopervaring.</p>
             </section>
         </div>
 
@@ -64,7 +64,7 @@ function Occasionbeheer() {
             </section>
             <section>
                 <h3>Occasion pagina</h3>
-                <p id="afspraaksysteem">Deze opmaak zal ook consistent worden toegepast op zowel de eigen website als op Nationaalautos.nl, waardoor gebruikers een uniforme en gestroomlijnde ervaring hebben, ongeacht het platform dat ze gebruiken.</p>
+                <p id="afspraaksysteem">Deze opmaak zal ook consistent worden toegepast op zowel de eigen website als op NationaalAutos.nl, waardoor gebruikers een uniforme en gestroomlijnde ervaring hebben, ongeacht het platform dat ze gebruiken.</p>
             </section>
         </div>
 
