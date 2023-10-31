@@ -6,6 +6,8 @@ import afspraak1 from "@/assets/mockups/afspraak1.png";
 import afspraak2 from "@/assets/mockups/afspraak2.png";
 import afspraak3 from "@/assets/mockups/afspraak3.png";
 import afspraak4 from "@/assets/mockups/afspraak4.png";
+import gif1 from "@/assets/gifs/kentekencheck.gif";
+import gif2 from "@/assets/gifs/afspraakgif.gif";
 
 function Afspraaksysteem() {
   
@@ -18,7 +20,7 @@ function Afspraaksysteem() {
 
         <div>
             <section>
-                <Image src={afspraak1} alt="Screenshot van de admin dashboard" data-aos="fade-up"/>
+                <Image src={gif1} alt="Screenshot van de admin dashboard" data-aos="fade-up"/>
             </section>
             <section>
                 <h2>Afspraaksysteem</h2>
@@ -34,7 +36,7 @@ function Afspraaksysteem() {
                 <p>Na het selecteren van de gewenste dienst vult de klant eenvoudig de kilometerstand van hun auto in, samen met hun telefoonnummer, voor- en achternaam, e-mailadres en optioneel, de naam van hun bedrijf. Daarnaast hebben ze de mogelijkheid om een omschrijving toe te voegen waarin ze hun specifieke wensen of eventuele problemen met hun voertuig kunnen uitleggen. Het invullen van deze gegevens stelt ons in staat om hun afspraak op maat te plannen en hen een gerichte service te bieden.</p>
             </section>
             <section>
-                <Image src={afspraak2} alt="Screenshot van de admin dashboard" data-aos="fade-up"/>
+                <Image src={gif2} alt="Screenshot van de admin dashboard" data-aos="fade-up"/>
             </section>
         </div>
 
