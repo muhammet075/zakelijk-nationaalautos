@@ -23,7 +23,10 @@ function Hero() {
               <li><Image src={checkIco} alt="Check Icoon"/>10+ Verkooppunten</li>
               <li><Image src={checkIco} alt="Check Icoon"/>Afsprakensysteem voor klanten</li>
             </ul>
-            <Link href="/klantworden" id="eigenwebsite" data-aos="fade-right">Klant worden <Image src={ChevronRight} alt="Verder Icoon"/></Link>
+            <div>
+              <Link href="/klantworden" id="eigenwebsite" data-aos="fade-right">Klant worden <Image src={ChevronRight} alt="Verder Icoon"/></Link>
+              <Link target="_blank" href="https://autogarage-project.vercel.app/" data-aos="fade-right">Live Demo <Image src={ChevronRight} alt="Verder Icoon"/></Link>
+            </div>
           </section>
           <section>
             <Image src={eigenWebsite} alt="Mockup voor een eigen website"/>

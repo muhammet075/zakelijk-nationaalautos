@@ -42,7 +42,12 @@
     margin-right: 7px;
 }
 
-.hero > div > section:nth-of-type(1) a{
+.hero > div > section:nth-of-type(1) > div{
+    display: flex;
+    gap: 25px;
+}
+
+.hero > div > section:nth-of-type(1) > div a{
     background-color: var(--themeColor);
     color: var(--textColor3);
     display: block;
@@ -57,7 +62,15 @@
     box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
 }
 
-.hero > div > section:nth-of-type(1) a:hover{
+.hero > div > section:nth-of-type(1) > div a:last-child{
+    background: none;
+    box-shadow: none;
+    color:  var(--textColor1);
+    border: 2px solid var(--textColor1);
+}
+
+.hero > div > section:nth-of-type(1) > div a:hover{
+    color: var(--textColor3);
     background-color: var(--textColor1);
     transition: 0.3s ease;
 }
@@ -70,6 +83,10 @@
     margin: auto;
     width: 30px;
     height: auto;
+}
+
+.hero > div > section:nth-of-type(1) > div a:last-child img{
+    display: none;
 }
 
 .hero > div > section:nth-of-type(2){
@@ -138,5 +155,15 @@
 @media only screen and (max-width: 500px) {
     .hero > div > section:nth-of-type(2) > img{
         width: 100%;
+    }
+}
+
+@media only screen and (max-width: 475px) {
+    .hero > div > section:nth-of-type(1) > div a:nth-of-type(1){
+        width: 60%;
+    }
+
+    .hero > div > section:nth-of-type(1) > div a:nth-of-type(2){
+        width: 40%;
     }
 }
