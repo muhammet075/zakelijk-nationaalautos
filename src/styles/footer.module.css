@@ -94,9 +94,9 @@
     opacity: 0.8;
 }
 
-@media only screen and (max-width: 1315px) {
+@media only screen and (max-width: 1375px) {
     .footer > div{
-        padding: 0 15px;
+        padding: 0 50px;
     }
 }
 
@@ -106,9 +106,10 @@
     }
 }
 
-@media only screen and (max-width: 850px) {
+@media only screen and (max-width: 900px) {
     .footer > div{
         flex-direction: column-reverse;
+        padding: 0 15px;
     }
 
     .footer > div > section{
@@ -124,5 +125,4 @@
         left: 15px;
         bottom: 15px;
     }
-
 }

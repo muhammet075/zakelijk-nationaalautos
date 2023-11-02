@@ -85,6 +85,13 @@ main{
 @media only screen and (max-width: 1050px) {
   #hamburgerbtn{
     display: block;
+    right: 50px;
+  }
+}
+
+@media only screen and (max-width: 900px) {
+  #hamburgerbtn{
+    right: 15px;
   }
 }
 
