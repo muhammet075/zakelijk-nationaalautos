@@ -25,7 +25,7 @@ function Occasionbeheer() {
         <div>
             <section>
                 <h2>Eenvoudige occasion beheer</h2>
-                <p>Met onze geavanceerde websitefuncties kunnen autobedrijven moeiteloos occasions toevoegen aan hun inventaris. Voer het kenteken in voor directe toegang tot RDW-voertuiginformatie en upload eenvoudig foto's en details zoals prijs en kilometerstand. Met een paar klikken verschijnt uw aanbod automatisch op meerdere verkooppunten zoals op je eigen website, NationaalAutos.nl, Marktplaats, Autoscout24, Gaspedaal en meerdere. Hierdor wordt de kans op een snelle en succesvolle verkoop vergroot. Wij zorgen voor een naadloze online verkoopervaring, zodat u zich kunt concentreren op uitstekende klantenservice.</p>
+                <p>Met onze geavanceerde websitefuncties kunnen autobedrijven moeiteloos occasions toevoegen aan hun inventaris. Voer het kenteken in voor directe toegang tot RDW-voertuiginformatie en upload eenvoudig foto's en details zoals prijs en kilometerstand. Met een paar klikken verschijnt uw aanbod automatisch op meerdere verkooppunten zoals op je eigen website, NationaalAutos.nl en meerdere. Hierdor wordt de kans op een snelle en succesvolle verkoop vergroot. Wij zorgen voor een naadloze online verkoopervaring, zodat u zich kunt concentreren op uitstekende klantenservice.</p>
             </section>
             <section>
                 <Image src={dashboard} alt="Screenshot van de admin dashboard" data-aos="fade-up"/>
@@ -54,7 +54,7 @@ function Occasionbeheer() {
             </section>
             <section>
                 <h3>Occasion toevoegen</h3>
-                <p>Voeg moeiteloos occasions toe via het admin-paneel door simpelweg het kenteken in te voeren. Ontvang direct alle relevante voertuiginformatie van de RDW-server. Met een paar klikken wordt de auto automatisch geadverteerd op uw eigen website, NationaalAutos.nl, Marktplaats, Autoscout24, Gaspedaal en andere verkooplocaties. Beheerders kunnen zich concentreren op klantenservice terwijl het platform zorgt voor een moeiteloze online verkoopervaring.</p>
+                <p>Voeg moeiteloos occasions toe via het admin-paneel door simpelweg het kenteken in te voeren. Ontvang direct alle relevante voertuiginformatie van de RDW-server. Met een paar klikken wordt de auto automatisch geadverteerd op uw eigen website, NationaalAutos.nl en andere verkooplocaties. Beheerders kunnen zich concentreren op klantenservice terwijl het platform zorgt voor een moeiteloze online verkoopervaring.</p>
             </section>
         </div>
 
