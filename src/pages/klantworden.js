@@ -125,7 +125,7 @@ export default function Klantworden() {
             bericht: message,
         }
 
-        emailjs.send("service_e9gy42e","template_suazsbb", emailData, "6E-oLaUqs1b5vJbY1");
+        emailjs.send("service_e9gy42e","template_suazsbb", emailData, "8l6uIctyg_S_kpiRF");
 
         document.querySelector(".contactforminner1").classList.add("displaynone");
         document.querySelector(".contactforminner2").classList.remove("displaynone");
